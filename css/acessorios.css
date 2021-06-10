@@ -5,7 +5,7 @@ body, main{
     margin: 0px;
 }
 
-/* Header-barra de navegación */
+/*header*/
 
 header{
     width: 100%;
@@ -18,7 +18,7 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:lightgray;
+    background-color: lightgray;
 }
 
 header nav ol{
@@ -42,67 +42,11 @@ header nav ol li:hover{
     background-color: purple;
     cursor: pointer;
 }
+ /*secciones*/
 
-/* Banner */
-
-.container{
-    width: 100%;
-    height: 90vh;
-    background-image: url('');
-}
-
-.container .filter{
-    width: 100%;
-    height: 90vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.container .filter .col-60{
-    width: 60%;
-    margin-left: 100px;
-}
-
-.container .filter .col-60 h2{
-    font-family: 'Barlow', sans-serif;
-    font-size: 2.8rem;
-    color: white;
-    margin-top: 0px;
-    margin-bottom: 4px;
-}
-
-.container .filter .col-60 p{
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.container .filter .col-60 button{
-    width: 30%;
-    padding: 7px 10px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    background-color: purple;
-    color: azure;
-}
-
-.container .filter .col-60 button:hover{
-    background-color:white;
-    color: purple;
-    cursor: pointer;
-}
-
-/* secciones */
-
-.container-main{
+ .container-main{
     width: 100%;
 }
-
 .container-main .row{
     width: 100%;
     display: flex;
@@ -128,68 +72,33 @@ header nav ol li:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    position: center;
 }
 .container-main .row .col-30:nth-child(2){
     background-image: url('https://img.freepik.com/vector-gratis/fondo-logo-muebles-minimalistas_23-2148464059.jpg?size=338&ext=jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    position: center;
+}
+.container-main .row .col-30:nth-child(3){
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-logo-muebles-minimalistas_23-2148464059.jpg?size=338&ext=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: center;
 }
 
-.container-main .row .col-30 p{
-    text-align:start;
+.container-main .row .col-20 p{
+    text-align:center;
     background-color: rgba(0, 0, 0, 0.5);
-    color: azure;
+    color: green;
     font-family: 'Barlow', sans-serif;
     padding: 10px;
     margin-bottom: 0px;
 }
-/*formulario*/
-
-.container .row .col-40 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8rem;
-    color:black;
-}
-
-.container .row .col-40 div{
-    width: 60%;
-    display:block;
-    justify-content: center;
-}
-
-.container .row .col-40 div input{
-    width: 30%;
-    border-radius: 60px;
-    padding: 5px;
-    font-size: 1.2rem;
-    border:black;
-    outline:black;
-    padding-left: 10px;
-    margin-right: 10px;
-}
-
-.container .row .col-40 div button{
-    width: 25%;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 1.2rem;
-    border: none;
-    padding-left: 10px;
-    background-color:purple;
-    color: white;
-}
-
-.container .row .col-40 div button:hover{
-    background-color:white;
-    color:purple;
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-/* Footer */
-
-footer{
+/*footer*/
+ooter{
     width: 100%;
     background-color:lightgray;
 }
