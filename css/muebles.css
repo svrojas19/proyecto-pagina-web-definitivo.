@@ -75,7 +75,7 @@ header nav ol li:hover{
     position: center;
 }
 .container-main .row .col-30:nth-child(2){
-    background-image: url('https://img.freepik.com/vector-gratis/fondo-logo-muebles-minimalistas_23-2148464059.jpg?size=338&ext=jpg');
+    background-image:none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
