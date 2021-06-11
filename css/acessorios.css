@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 
-body, main{
+body,main{
     padding: 0px;
     margin: 0px;
+}
+main h1 {
+    color: black;
+    font-family: 'Barlow',Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
 }
 
 /*header*/
@@ -82,44 +88,29 @@ header nav ol li:hover{
     background-size: auto 100%;
 }
 
+.container-main .row .col-30 span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+    color:black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 .container-main .row .col-30 p{
     text-align:start;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: azure;
+    color: black;
     font-family: 'Barlow', sans-serif;
     padding: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
-.container-main .row .col-30:nth-child(3){
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-.container-main .row .col-30 h2{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:none;
-    font-family: 'Barlow', sans-serif;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 0px;
-}
-
-.container-main .row .col-30 p{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:lightgray;
-    font-family: 'Barlow', sans-serif;
-    padding: 10px;
-    margin-bottom: 0px;
-}
 
 /*footer*/
 footer{
     width: 100%;
     background-color:lightgray;
+    padding-bottom:100px;
 }
+
 
 footer .row{
     width: 100%;
