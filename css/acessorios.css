@@ -7,7 +7,6 @@ body,main{
 main h1 {
     color: black;
     font-family: 'Barlow',Arial, Helvetica, sans-serif;
-    font-size: large;
     text-align: center;
 }
 
@@ -43,7 +42,12 @@ header nav ol li{
     font-size: 1.5rem;
     color: black;
 }
-
+header nav ol li a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
 header nav ol li:hover{
     background-color: purple;
     cursor: pointer;
@@ -95,6 +99,10 @@ header nav ol li:hover{
     padding: 10px;
     margin-bottom: 10px;
 }
+.container-main .row .col-30 span:hover{
+    cursor: pointer;
+    color:purple;
+}
 .container-main .row .col-30 p{
     text-align:start;
     color: black;
@@ -102,15 +110,11 @@ header nav ol li:hover{
     padding: 10px;
     margin-bottom: 10px;
 }
-
-
 /*footer*/
 footer{
     width: 100%;
     background-color:lightgray;
-    padding-bottom:100px;
 }
-
 
 footer .row{
     width: 100%;
@@ -137,8 +141,13 @@ footer .row .col-30:nth-child(1) ul li{
     font-family: 'Barlow', sans-serif;
     font-size: 1.3rem;
 }
-
-footer .row .col-30:nth-child(1) ul li:hover{
+footer .row .col-30 ul li a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+footer .row .col-30:nth-child(1) ul li a:hover{
     cursor: pointer;
     color: purple;
 }
@@ -155,7 +164,10 @@ footer .row .col-30:nth-child(2) ul li{
     font-size: 1.3rem;
 }
 
-footer .row .col-30:nth-child(3) p{
+footer .row .col-30 p{
+    text-decoration:none;
     font-family: 'Barlow', sans-serif;
     font-size: 1.3rem;
+    color:black;
+    margin-bottom: 10px;
 }
