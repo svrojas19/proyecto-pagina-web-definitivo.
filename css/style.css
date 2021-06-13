@@ -4,12 +4,12 @@ body,main{
     padding: 0px;
     margin: 0px;
 }
-/* Header-barra de navegación */
-
+/*header*/
 header{
     width: 100%;
     height: 10vh;
 }
+
 header nav{
     width: 100%;
     height: 10vh;
@@ -81,24 +81,6 @@ header nav ol li:hover{
     color: white;
 }
 
-.container .filter .col-60 button{
-    width: 30%;
-    padding: 7px 10px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    background-color: purple;
-    color: azure;
-}
-
-.container .filter .col-60 button:hover{
-    background-color:white;
-    color: purple;
-    cursor: pointer;
-}
-
 /* secciones */
 .container-main{
     width: 100%;
@@ -122,19 +104,23 @@ header nav ol li:hover{
     justify-content: space-between;
     flex-direction: column;
 }
-.container-main .row .col-30 span{
+.container-main .row .col-30 button{
+    width: auto 100%;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.5rem;
+    border:none;
+    padding-left: 5px;
+    background-color:purple;
+    color: white;
+}
+.container-main .row .col-30 button a{
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
     font-size: 1.5rem;
-    color: black;
+    color: white;
 }
-.container-main .row .col-30 span a{
-    text-decoration: none;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.5rem;
-    color: black;
-}
-.container-main .row .col-30 span a:hover{
+.container-main .row .col-30 button a:hover{
     background-color: purple;
     cursor: pointer;
 }
