@@ -170,3 +170,119 @@ footer .row .col-30 p{
     color:black;
     margin-bottom: 10px;
 }
+/*responsive*/
+/*responsive 1080px*/
+@media(max-width:1080px){
+
+    .container-main .row{
+        margin-bottom:0px;
+    }
+        .container-main .row .col-30{
+            width: 20%;
+            height: fit-content;
+             display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+    
+    footer.row.col-30{
+                   width: 100%;
+                   height:10px;
+                   flex-direction: column;
+                   align-items: center;
+                   justify-content: center;
+               }
+           
+       }
+     /*responsive 768 px*/
+   @media(max-width:768px){
+       
+       footer.row{
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 0px;
+       }
+       footer .row .col-30{
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+       footer .row .col-30:nth-child(1) ul{
+           width: 100%;
+           padding-left: 0px;
+           margin: 0px;
+           margin-bottom: 0px;
+       }  
+       footer .row .col-30:nth-child(1) ul li{
+           text-align: center;
+        }
+        footer .row .col-30:nth-child(2) ul{
+           width: 100%;
+           padding-left: 0px;
+           margin: 0px;
+           margin-bottom: 0px;
+       }  
+       footer .row .col-30:nth-child(2) ul li{
+           text-align: center;
+        }
+    }       
+   /*responsive 480 px*/
+   @media (max-width: 480px){
+       body{
+              width:70%;
+          }
+          header{
+              width: 15cm;
+          }
+   
+   .container .filter .col-60 h2{
+               text-align: center;
+           }
+           
+           .container .filter .col-60 p{
+               text-align: center;
+               }
+           .container .filter .col-60 button{
+               width: 100%;
+               }
+           .container-main .row{
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                width: 15cm; 
+               }
+               
+   .container-main .row .col-30{
+        width: 80%;
+               }
+   footer {
+   width: 15cm
+           }
+   }
+   
+    /*--responsive 370px--*/
+    @media(max-width:370px){
+       body{
+           align-items:center;
+       }
+       header{
+           height: 100%;
+        }
+        header nav{
+           height: 100%;
+        }
+       header nav ol{
+       flex-direction: column;
+       }
+       header nav ol li{
+           text-align: center;
+       }
+       .container .filter .col-60 p{
+           width: 90%;
+           margin-left: 0px;
+           margin: 0 auto;
+       }
+   }
